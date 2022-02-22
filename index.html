@@ -1,0 +1,35 @@
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #label {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    z-index: 2;
+  }
+</style>
+<video id="video" muted autoplay autobuffer loop src=""></video>
+<small id="label">Hello</small>
+<script>
+  function rotate() {
+      const name = `${Math.round(Math.random() * 200)}`.padStart(4, '0');
+      video.src = `videos/${name}.mp4`
+      label.innerText = name
+  }
+
+  setInterval(() => {
+      rotate();
+  }, 120_000);
+
+  rotate();
+</script>
