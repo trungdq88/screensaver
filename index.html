@@ -2,6 +2,7 @@
   html, body {
     margin: 0;
     padding: 0;
+    background: black;
   }
 
   video {
@@ -26,6 +27,12 @@
       video.src = `videos/${name}.mp4`
       label.innerText = name
   }
+
+  video.addEventListener('error', () => {
+    setTimeout(() => {
+      rotate();
+    }, 1000);
+  });
 
   setInterval(() => {
       rotate();
