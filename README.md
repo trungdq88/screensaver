@@ -2,10 +2,15 @@
                 
 # How to use
 
-1. Download videos to `videos/` directory, name them as "0001.mp4", "0002.mp4", etc.
-2. Open `index.html` with a browser.
-3. Move it to your idle screen, click full screen.
-4. Enjoy.
+0. Download the app:
+
+![CleanShot 2022-02-22 at 10 25 10@2x](https://user-images.githubusercontent.com/4214509/155057585-615dd1f4-3ed7-493a-ab7c-c39a65144f98.png)
+
+
+2. Download videos to `videos/` directory, name them as "0001.mp4", "0002.mp4", etc.
+3. Open `index.html` with a browser.
+4. Move it to your idle screen, click full screen.
+5. Enjoy.
 
 # Where to download videos?
 
